@@ -7,4 +7,7 @@ defmodule ExMon.Game.Status do
     IO.puts("\n-------------------------------\n")
   end
 
+  def print_wring_move_message(move) do
+    IO.puts("\n===== Invalid move: #{move}. =====\n")
+  end
 end
